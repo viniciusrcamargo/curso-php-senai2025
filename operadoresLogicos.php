@@ -1,14 +1,11 @@
 <?php
 
-$a = true;
-$b = false;
+$idade = readline('Informe sua idade ');
+$habilitacao = readline('Têm habilitação? ');
 
-var_dump($a && $b); // bool(false)
-echo "<br>";
-var_dump($a || $b); // bool(true)
-echo "<br>";
-var_dump(!$a);      // bool(false)
-echo "<br>";
-var_dump($a xor $b); // bool(true)
-echo "<br>";
-var_dump($a && !$b); // bool(true)
+//operador && as duas precisam ser verdadeiras
+if($idade >=18 && $habilitacao == 'sim'){
+    echo "Pode dirigir!";
+}else{
+    echo "Não pode dirigir!";
+}
