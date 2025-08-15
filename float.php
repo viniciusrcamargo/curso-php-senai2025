@@ -1,6 +1,4 @@
 <?php
 
-$salario = 1500.00;
-$porcentagemDesconto = 5.00;
-
+$salario = 1800.50;
 echo gettype($salario);
