@@ -1,6 +1,5 @@
 <?php
 
-$nome = "João"; 
-$idade = 25;   
-$altura = 1.75; 
-$status = true; 
+$variavel; //declaração de variável
+$variavel = 'Olá Senai 1 + 1';//atribuição de valor 
+echo $variavel;//mostrando o valor da variável
