@@ -1,5 +1,5 @@
 <?php
 
-
-$estaAtivo = false;
-$status = true;
+$status = true;//verdadeiro
+$status2 = false;//falso
+echo gettype($status);
