@@ -1,9 +1,9 @@
 <?php
 // Configurações do banco de dados
 $servidor = "localhost";
-$usuario = "seu_usuario";
-$senha = "sua_senha";
-$banco = "seu_banco";
+$usuario = "root";
+$senha = "%vBV6c4B7$";
+$banco = "contatos";
 
 // Criar a conexão
 $mysqli = new mysqli($servidor, $usuario, $senha, $banco);
@@ -16,5 +16,5 @@ if ($mysqli->connect_error) {
 echo "Conectado com sucesso via MySQLi!";
 
 // Lembre-se de fechar a conexão
-$mysqli->close();
+// $mysqli->close();
 ?>
